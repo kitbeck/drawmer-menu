@@ -1,0 +1,143 @@
+* {
+ 	padding: 0;
+	margin: 0;
+}
+
+.active {
+	color: #fff;
+}
+ 
+#menu a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+#menu a.active {
+	color: #fff;
+	/* text-shadow: 0px 0px 3px #fff; */
+}
+ 
+#menu ul li a.active {
+	color: #fff;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul.active {
+	color: #fff;
+}
+
+#menu_top {
+	position: relative;
+	width: 235px;
+	height: 20px;
+	background: url(../images/menu/pmenu_top.jpg) no-repeat;
+}
+
+#menu {
+	position: relative;
+	width: 235px;
+	background: url(../images/menu/menu_spacer.jpg) repeat-y;
+}
+
+
+#menu_bottom {
+	position: relative;
+	width: 235px;
+	height: 25px;
+	background: url(../images/menu/menu_footer.jpg) no-repeat;
+}
+
+#series, #type {
+	padding: 0;
+}
+
+#by_series {
+	position: relative;
+	width: 215px;
+	height: 33px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 33px;
+	background: url(../images/menu/style1_off.jpg) no-repeat;
+	padding: 0 0 0 25px;
+}
+
+#by_series.active {
+	color: #fff;
+}
+
+#by_series:hover {
+	color: #fff;
+	background: url(../images/menu/style1_over.jpg) no-repeat;
+}
+
+#by_type {
+	position: relative;
+	width: 235px;
+	height: 33px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 33px;
+	padding: 0 0 0 25px;
+	background: url(../images/menu/style1_off.jpg) no-repeat;
+}
+
+#by_type.active {
+	color: #fff;
+}
+
+#by_type:hover {
+	color: #fff;
+	background: url(../images/menu/style1_over.jpg) no-repeat;
+}
+
+#menu ul li a.series {
+	position: relative;
+	width: 235px;
+	height: 27px;
+	font-size: 16px;
+	line-height: 27px;
+    padding: 0 0 0 25px;
+	background: url(../images/menu/style2_BG.jpg) no-repeat;
+
+}
+
+#menu ul li a.series:hover {
+	color: #fff;
+}
+
+#menu ul li a.type {
+	position: relative;
+	width: 235px;
+	height: 27px;
+	font-size: 16px;
+	line-height: 27px;
+    padding: 0 0 0 25px;
+	background: url(../images/menu/style2_BG.jpg) no-repeat;
+
+}
+
+#menu ul li a.type:hover {
+	color: #fff;
+}
+
+#menu ul li a.product {
+	position: relative;
+	width: 190px;
+	font-size: 14px;
+	margin: 0 0 0 20px;
+	padding: 5px 0 5px 0;
+	border-bottom: 1px solid #4d7499;
+}
+
+#menu ul li a.product:hover {
+	color: #fff;
+}
+
+#menu ul li a.noborder {
+	border: 0;
+}
